@@ -21,8 +21,7 @@ def do_connect():
 
 def main():
     do_connect()
-    # import lightmeup
-    # lightmeup.run()
+    import webrepl; webrepl.start()
 
 if __name__ == "__main__":
     main()
